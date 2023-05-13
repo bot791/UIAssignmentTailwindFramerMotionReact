@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+  .cover{
+    width: 95%;
+    height:240px;
+    display:block;
+    margin: auto;
+    object-fit:cover;
+   
+  }
+  .heading{
+    text-shadow: 1.5px 1.5px gray;
+  }
+  .star{
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .search{
+    height:25px;
+    width: 25px;
+    margin-top: 11px;
+    margin-right: 5px;
+    
+  }
+  .cover-image{
+    position: relative;
+  }
+  .under-cover{
+    position:relative;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    bottom: 28px;
+    
+   
+    
+  }
